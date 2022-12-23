@@ -1,0 +1,13 @@
+.priceColumn {
+    min-width: 170px;
+}
+
+.nameColumn {
+    min-width: 300px;
+}
+
+@media only screen and (max-width: 767px){
+    .wrapper-datatables td:last-child a:last-child button {
+        margin-left: 10px;
+    }
+}

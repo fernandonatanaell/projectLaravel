@@ -1,0 +1,15 @@
+input[type]:not([type="search"]):not([type="url"]):not([type="hidden"]):not([type="file"]) {
+    background-color: #111011;
+    color: #e2e0e1;
+    color-scheme: dark;
+}
+input[type]:not([type="search"]):not([type="url"]):not([type="hidden"]):not([type="file"]):focus {
+    background-color: #111011; /* or any other color you want when user starts typing in input */
+    color: #e2e0e1;
+}
+input:-webkit-autofill {
+    -webkit-text-fill-color: #e2e0e1;
+}
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #e2e0e1;
+}

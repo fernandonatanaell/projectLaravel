@@ -1,0 +1,13 @@
+.fullnameColumn {
+    min-width: 200px;
+}
+
+.dobColumn {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.hireDateColumn {
+    min-width: 130px;
+    max-width: 130px;
+}

@@ -1,0 +1,16 @@
+.descServiceColumn {
+    min-width: 200px;
+}
+
+.customerNameColumn {
+    min-width: 150px;
+}
+
+.serviceCostColumn {
+    min-width: 150px;
+}
+
+.dateOfServiceColumn {
+    min-width: 150px;
+}
+

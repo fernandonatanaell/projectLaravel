@@ -1,0 +1,18 @@
+.imgAja {
+    max-height: 180px;
+}
+
+table tr td {
+    border-bottom: 1px solid lightgray;
+    padding: 14px 0px;
+}
+
+@media (max-width: 991px) {
+    .imgAja {
+        max-height: 130px;
+    }
+
+    .wrapper-profile div:first-child{
+        margin-bottom: 15px;
+    }
+}

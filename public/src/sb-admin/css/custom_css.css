@@ -1,0 +1,107 @@
+/* COLOR */
+.color-white-high-emphasis {
+    color: #e2e0e1;
+}
+
+.color-white-medium-emphasis {
+    color: #747273;
+}
+
+.color-white-low-emphasis {
+    color: #474546;
+}
+
+.bg-white-high-emphasis {
+    background-color: #e2e0e1;
+}
+
+.bg-white-medium-emphasis {
+    background-color: #747273;
+}
+
+.bg-white-low-emphasis {
+    background-color: #474546;
+}
+
+.bg-that-more-light-than-black {
+    background-color: #1f1f28;
+}
+
+.bg-content {
+    background-color: #111011;
+}
+
+/* INPUT */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #e2e0e1;
+    -webkit-box-shadow: 0 0 0px 1000px #1f1f28 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* SIDEBAR */
+.sidebar-brand-text {
+    font-size: 1.1rem;
+    margin: 3% 0 0 3%;
+}
+.nav-item a{
+    border-radius: 3%;
+}
+.nav-item:not(.dropdown):hover a{
+    background-color: #2f2f30;
+    transition: all .2s linear;
+}
+.sidebar-brand-text span {
+    color: #6b6fc3;
+}
+.nav-item .nav-link span, .nav-item .nav-link i.fas{
+    color: #747273;
+    transition: all .2s linear;
+}
+.nav-item.active .nav-link span, .nav-item.active .nav-link i.nav-icon {
+    color: #ffffff;
+}
+.nav-item.active a {
+    background-color: #6b6fc3;
+}
+.nav-item.active:hover a{
+    background-color: #484DB3;
+}
+.nav-item:hover:not(.active) a.nav-link span, .nav-item:hover:not(.active) a.nav-link i.nav-icon{
+    color: #787dd7;
+}
+.nav-item.active:hover a.nav-link span, .nav-item.active:hover a.nav-link i.nav-icon{
+    color: #e2e0e1;
+}
+
+.btn-template {
+    background-color: #6b6fc3;
+    color: #e2e0e1;
+}
+.btn-template:hover {
+    background-color: #484DB3;
+    color: #e2e0e1;
+}
+
+/* TOPBAR */
+.badge.badge-danger.badge-counter{
+    background-color: #6b6fc3;
+    color: #e2e0e1;
+}
+.nav-item.dropdown:hover a.nav-link i.nav-icon {
+    color: #747273;
+    transition: all .2s linear;
+}
+.nav-item.dropdown:hover a.nav-link span.badge.badge-danger.badge-counter {
+    color: #e2e0e1;
+}
+.nav-link.dropdown-toggle:hover {
+    background-color: #1f1f28;
+}

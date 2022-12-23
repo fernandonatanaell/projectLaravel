@@ -1,0 +1,28 @@
+.wrapper-datatables td, .wrapper-datatables th {
+    border-top: none;
+    border-right: 1px solid #474546;
+    border-bottom: 1px solid #474546;
+    border-left: 1px solid #474546;
+}
+.wrapper-datatables td:first-child, .wrapper-datatables th:first-child {
+    border-left: none;
+}
+.wrapper-datatables td:last-child, .wrapper-datatables th:last-child {
+    border-right: none;
+}
+.wrapper-datatables, .wrapper-datatables th, .wrapper-datatables td, .wrapper-datatables .card-header h6{
+    color: #e2e0e1;
+}
+
+table {
+    height: 100%;
+}
+
+.wrapper-datatables td {
+    height: 100%;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:focus, input:-webkit-autofill:hover {
+    -webkit-box-shadow:0 0 0 50px transparent inset;
+    -webkit-text-fill-color: #747273;
+}
