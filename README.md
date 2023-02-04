@@ -10,6 +10,20 @@
 ## LINK WEBSITE
 <a href="project-sdp.lukasbudi.my.id">https://project-sdp.lukasbudi.my.id</a>
 
+## LIST AKUN UNTUK LOGIN
+- Owner => 
+    Username : fernandonatanaell
+    Password : 123
+- Manajer =>
+    Username : agnessisilia
+    Password : 123
+- Teknisi =>
+    Username : garitdewana
+    Password : 123
+- Kasir =>
+    Username : natashadonabella
+    Password : 123
+
 ## KONFIGURASI DASAR
 
 1. Ubah .env menjadi berikut
@@ -83,17 +97,3 @@
 2. Lakukan composer install
 3. Jalankan perintah untuk migrate database
 4. IMPORT DB_SCHEMA.sql
-
-## LIST AKUN YANG DIGUNAKAN UNTUK LOGIN
-- Owner => 
-    Username : fernandonatanaell
-    Password : 123
-- Manajer =>
-    Username : agnessisilia
-    Password : 123
-- Teknisi =>
-    Username : garitdewana
-    Password : 123
-- Kasir =>
-    Username : natashadonabella
-    Password : 123
