@@ -6,27 +6,31 @@
     <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+<h1>About AsiaTeknik</h1>
+AsiaTeknik adalah sebuah web yang digunakan untuk mengatur segala proses bisnis dari perusahaan servis barang elektronik yang bernama Asia Teknik. Website ini merupakan hasil dari salah satu tugas mata kuliah yang bernama "Framework Pemrograman Web".
  
-## LINK WEBSITE
+<h3>Link website</h3>
 <a href="project-sdp.lukasbudi.my.id">https://project-sdp.lukasbudi.my.id</a>
 
-## LIST AKUN UNTUK LOGIN
-- Owner => 
+<h3>Akun untuk login</h3>
+
+- Sebagai Owner => 
     Username : fernandonatanaell
     Password : 123
-- Manajer =>
+- Sebagai Manajer =>
     Username : agnessisilia
     Password : 123
-- Teknisi =>
+- Sebagai Teknisi =>
     Username : garitdewana
     Password : 123
-- Kasir =>
+- Sebagai Kasir =>
     Username : natashadonabella
     Password : 123
 
-## KONFIGURASI DASAR
+<h1>Langkah-langkah sebelum menjalankan aplikasi</h1>
 
-1. Ubah .env menjadi berikut
+1. Ubah pada file .env menjadi berikut
     
     ```sh
     APP_NAME=Laravel
@@ -94,6 +98,8 @@
     MIDTRANS_IS_SANITIZED=true
     MIDTRANS_IS_3DS=true
     ```
-2. Lakukan composer install
-3. Jalankan perintah untuk migrate database
-4. IMPORT DB_SCHEMA.sql
+2. Lakukan composer install melalui terminal dengan mengketikan "composer install"
+3. Jalankan perintah untuk migrate database melalui terminal dengan mengketikan "php artisan migrate"
+4. Import DB_SCHEMA.sql dengan menggunakan phpMyAdmin milik Anda maupun SQLyog
+5. Pada terminal ketikan "php artisan serve"
+6. Kemudian buka di browser Anda dan ketikan "localhost:8000" pada bagian URLnya
